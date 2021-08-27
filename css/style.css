@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../image/353-3539291_robotic-process-automation.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.title h1{
+    color: white;
+    font-size: 40px;
+    text-align: center;
+}
+
+.title p{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+
+.photo img{
+    width: 200px;
+    height: auto;
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(214, 214, 214);
+    border-radius: 50%;
+}
+
+.card li{
+    padding-top: 5px;
+}
+
+.card-title{
+    font-weight: bold;
+}
+
+.fa:hover {
+    opacity: 0.9;
+}
+
+.fa-whatsapp {
+    background: #0fc24a;
+    color: white;
+}
+
+.fa-paper-plane {
+    background: #cb2027;
+    color: white;
+}
+
+.fa-github {
+    background: #000000;
+    color: white;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 40px;
+    width: 60px;
+    text-decoration: none;
+    margin: 5px 20px;
+}
+
+.about-me{
+    width: auto;
+    height: auto;
+}
+
+.my-work{
+    width: auto;
+    height: auto;
+}
+
+.message-me{
+    width: 50%;
+    height: auto;
+    margin-left: 25%;
+}
+
+.footer{
+    margin-top: 10px;
+}
